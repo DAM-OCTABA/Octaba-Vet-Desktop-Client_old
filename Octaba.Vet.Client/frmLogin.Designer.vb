@@ -27,6 +27,7 @@ Partial Class frmLogin
         Me.btnLogin = New System.Windows.Forms.Button()
         Me.time = New System.Windows.Forms.Timer(Me.components)
         Me.Message1 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'btnLogin
@@ -58,11 +59,19 @@ Partial Class frmLogin
         Me.Message1.Text = "Inicia sessió en la finestra del navegador"
         Me.Message1.Visible = False
         '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(47, 207)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox1.TabIndex = 2
+        '
         'frmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(417, 248)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Message1)
         Me.Controls.Add(Me.btnLogin)
         Me.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
@@ -76,4 +85,5 @@ Partial Class frmLogin
     Friend WithEvents btnLogin As Button
     Friend WithEvents time As Timer
     Friend WithEvents Message1 As Label
+    Friend WithEvents TextBox1 As TextBox
 End Class

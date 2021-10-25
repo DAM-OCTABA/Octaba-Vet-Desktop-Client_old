@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Octaba.Vet.Desktop.Client", "Octaba.Vet.Client\Octaba.Vet.Desktop.Client.vbproj", "{87C5A6C4-E73A-4D17-B0CD-816102008D3B}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Octaba.Vet.Desktop.Client.Test", "Octaba.Vet.Desktop.Client.Test\Octaba.Vet.Desktop.Client.Test.vbproj", "{ABF38527-644A-48BC-B06A-EBB68912CE26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{87C5A6C4-E73A-4D17-B0CD-816102008D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87C5A6C4-E73A-4D17-B0CD-816102008D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87C5A6C4-E73A-4D17-B0CD-816102008D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF38527-644A-48BC-B06A-EBB68912CE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF38527-644A-48BC-B06A-EBB68912CE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF38527-644A-48BC-B06A-EBB68912CE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF38527-644A-48BC-B06A-EBB68912CE26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
